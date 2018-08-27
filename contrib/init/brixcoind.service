@@ -1,0 +1,22 @@
+[Unit]
+Description=Brixcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=brixcoincore
+Group=brixcoincore
+
+Type=forking
+PIDFile=/var/lib/brixcoind/brixcoind.pid
+ExecStart=/usr/bin/brixcoind -daemon -pid=/var/lib/brixcoind/brixcoind.pid \
+-conf=/etc/brixcoincore/brixcoin.conf -datadir=/var/lib/brixcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

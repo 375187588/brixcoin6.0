@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Brixcoin Core
+Comment=Brixcoin P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Brixcoin peer-to-peer Netzwerk
+Comment[fr]=Brixcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Brixcoin, eşten eşe kriptografik sanal para birimi
+Exec=brixcoin-qt %u
+Terminal=false
+Type=Application
+Icon=brixcoin128
+MimeType=x-scheme-handler/brixcoin;
+Categories=Office;Finance;

@@ -1,0 +1,6 @@
+usr/local/bin/brixcoin-qt usr/bin
+share/pixmaps/brixcoin32.xpm usr/share/pixmaps
+share/pixmaps/brixcoin16.xpm usr/share/pixmaps
+share/pixmaps/brixcoin128.png usr/share/pixmaps
+debian/brixcoin-qt.desktop usr/share/applications
+debian/brixcoin-qt.protocol usr/share/kde4/services/

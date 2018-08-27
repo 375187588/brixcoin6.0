@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/brixcoin_bg.qm</file>
+        <file alias="de">locale/brixcoin_de.qm</file>
+        <file alias="en">locale/brixcoin_en.qm</file>
+        <file alias="es">locale/brixcoin_es.qm</file>
+        <file alias="fi">locale/brixcoin_fi.qm</file>
+        <file alias="fr">locale/brixcoin_fr.qm</file>
+        <file alias="it">locale/brixcoin_it.qm</file>
+        <file alias="ja">locale/brixcoin_ja.qm</file>
+        <file alias="nl">locale/brixcoin_nl.qm</file>
+        <file alias="pl">locale/brixcoin_pl.qm</file>
+        <file alias="pt">locale/brixcoin_pt.qm</file>
+        <file alias="ru">locale/brixcoin_ru.qm</file>
+        <file alias="sk">locale/brixcoin_sk.qm</file>
+        <file alias="sv">locale/brixcoin_sv.qm</file>
+        <file alias="vi">locale/brixcoin_vi.qm</file>
+        <file alias="zh_CN">locale/brixcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/brixcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
