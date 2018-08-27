@@ -3,6 +3,7 @@ Brixcoin6.0 (0.12.3.2)
 
 https://www.brixco.in
 
+Discord Channel: https://discord.gg/KFNFn2H
 
 What is Brixcoin?
 ----------------
