@@ -29,8 +29,8 @@ Build Brixcoin Core
 
 1. Clone the Brixcoin Core source code and cd into `brixcoin`
 
-        git clone https://github.com/brixcoinpay/brixcoin
-        cd brixcoin
+        git clone https://github.com/awsafrica/brixcoin6.0
+        cd brixcoin6.0
 
 2.  Build Brixcoin Core:
 
