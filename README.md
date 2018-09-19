@@ -1,6 +1,8 @@
 Brixcoin6.0 (0.12.3.2)
 ======================
 
+[![Build Status](https://travis-ci.org/awsafrica/brixcoin6.0.svg?branch=master)](https://travis-ci.org/awsafrica/brixcoin6.0)
+
 https://www.brixco.in
 
 Discord Channel: https://discord.gg/KFNFn2H
