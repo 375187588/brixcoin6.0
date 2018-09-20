@@ -1,7 +1,7 @@
 Brixcoin6.0 (0.12.3.2)
 ======================
 
-[![Build Status](https://travis-ci.org/awsafrica/brixcoin6.0.svg?branch=master)](https://travis-ci.org/awsafrica/brixcoin6.0)
+Master - [![Build Status](https://travis-ci.org/awsafrica/brixcoin6.0.svg?branch=master)](https://travis-ci.org/awsafrica/brixcoin6.0) Dev - [![Build Status](https://travis-ci.org/awsafrica/brixcoin6.0.svg?branch=Dev)](https://travis-ci.org/awsafrica/brixcoin6.0)
 
 https://www.brixco.in
 
