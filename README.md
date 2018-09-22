@@ -1,7 +1,7 @@
 Brixcoin6.0 (0.12.3.2)
 ======================
 
-Master - [![Build Status](https://travis-ci.org/awsafrica/brixcoin6.0.svg?branch=master)](https://travis-ci.org/awsafrica/brixcoin6.0) Dev - [![Build Status](https://travis-ci.org/awsafrica/brixcoin6.0.svg?branch=Dev)](https://travis-ci.org/awsafrica/brixcoin6.0) - DISCORD [![Discord](https://img.shields.io/discord/446594952969846785.svg)](https://discord.gg/KFNFn2H) - ISSUES [![GitHub issues](https://img.shields.io/github/issues/awsafrica/brixcoin6.0.svg)](https://github.com/awsafrica/brixcoin6.0/issues)
+Master - [![Build Status](https://travis-ci.org/awsafrica/brixcoin6.0.svg?branch=master)](https://travis-ci.org/awsafrica/brixcoin6.0) Dev - [![Build Status](https://travis-ci.org/awsafrica/brixcoin6.0.svg?branch=Dev)](https://travis-ci.org/awsafrica/brixcoin6.0) - DISCORD [![Discord](https://img.shields.io/discord/446594952969846785.svg)](https://discord.gg/KFNFn2H) - ISSUES [![GitHub issues](https://img.shields.io/github/issues/awsafrica/brixcoin6.0.svg)](https://github.com/awsafrica/brixcoin6.0/issues) [![codecov](https://codecov.io/gh/awsafrica/brixcoin6.0/branch/master/graph/badge.svg)](https://codecov.io/gh/awsafrica/brixcoin6.0)
 
 https://www.brixco.in
 
