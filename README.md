@@ -1,3 +1,6 @@
+[![Brixcoin](brixcoin_logo_horizontal.png)](https://www.brixco.in)
+
+
 Brixcoin6.0 (0.12.3.2)
 ======================
 
