@@ -25,6 +25,27 @@ source software which enables the use of this currency.
 For more information, as well as an immediately useable, binary version of
 the Brixcoin Core software, see https://www.brixco.in/get-started-with-brix-coin/.
 
+Brixcoin Specs
+----------------
+
+Coin Name: BRIXCOIN
+Ticker: BRIX
+Coin Algorithm And Type: X11 (POW/Masternodes)
+Difficulty Adjustment: Dark Gravity Wave
+Blocktime: 2.5 Minutes (Average)
+Masternodes Collateral: 1000 BRIX
+Masternodes Rewards: Tiered [25% - 45%]
+BRIX Online Wallet: Yes
+BRIX Referral Program: Yes
+Blockchain Explorer: Yes - http://explore.brixco.in
+Exchange: Yes - https://www.brixco.in/x
+Mining Pool: Yes - http://mine.wegolise.co.za
+Github Source Code: Yes - https://github.com/awsafrica/brixcoin6.0
+Wallet Downloads: https://github.com/awsafrica/brixcoin6.0/releases
+WhitePaper: https://www.brixco.in/brixcoin-whitepaper
+Facebook: https://www.facebook.com/brixcoin
+Discord Channel: https://discord.gg/KFNFn2H
+
 
 License
 -------
