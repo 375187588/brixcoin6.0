@@ -28,23 +28,23 @@ the Brixcoin Core software, see https://www.brixco.in/get-started-with-brix-coin
 Brixcoin Specs
 ----------------
 
-Coin Name: BRIXCOIN
-Ticker: BRIX
-Coin Algorithm And Type: X11 (POW/Masternodes)
-Difficulty Adjustment: Dark Gravity Wave
-Blocktime: 2.5 Minutes (Average)
-Masternodes Collateral: 1000 BRIX
-Masternodes Rewards: Tiered [25% - 45%]
-BRIX Online Wallet: Yes
-BRIX Referral Program: Yes
-Blockchain Explorer: Yes - http://explore.brixco.in
-Exchange: Yes - https://www.brixco.in/x
-Mining Pool: Yes - http://mine.wegolise.co.za
-Github Source Code: Yes - https://github.com/awsafrica/brixcoin6.0
-Wallet Downloads: https://github.com/awsafrica/brixcoin6.0/releases
-WhitePaper: https://www.brixco.in/brixcoin-whitepaper
-Facebook: https://www.facebook.com/brixcoin
-Discord Channel: https://discord.gg/KFNFn2H
+Coin Name: BRIXCOIN<br>
+Ticker: BRIX<br>
+Coin Algorithm And Type: X11 (POW/Masternodes)<br>
+Difficulty Adjustment: Dark Gravity Wave<br>
+Blocktime: 2.5 Minutes (Average)<br>
+Masternodes Collateral: 1000 BRIX<br>
+Masternodes Rewards: Tiered [25% - 45%]<br>
+BRIX Online Wallet: Yes<br>
+BRIX Referral Program: Yes<br>
+Blockchain Explorer: Yes - http://explore.brixco.in<br>
+Exchange: Yes - https://www.brixco.in/x<br>
+Mining Pool: Yes - http://mine.wegolise.co.za<br>
+Github Source Code: Yes - https://github.com/awsafrica/brixcoin6.0<br>
+Wallet Downloads: https://github.com/awsafrica/brixcoin6.0/releases<br>
+WhitePaper: https://www.brixco.in/brixcoin-whitepaper<br>
+Facebook: https://www.facebook.com/brixcoin<br>
+Discord Channel: https://discord.gg/KFNFn2H<br>
 
 
 License
