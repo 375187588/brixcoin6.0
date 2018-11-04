@@ -228,20 +228,20 @@ public:
         nPoolMaxTransactions = 3;
         nFulfilledRequestExpireTime = 60*60; // fulfilled requests expire in 1 hour
 
-        strSporkAddress = "BmLF8VhH2xsuHg1oKcBT6FvqLPwxD34PBd";
+        strSporkAddress = "Bkc9fSLqNkeHEGsekHPgmzaAcVSxE2crdt";
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (    0, uint256S("0x000000ddb42dec11396d4e117e8552632a78e212dc60797dfd91854184d4a97f"))
-            (  100, uint256S("0x000000ddb42dec11396d4e117e8552632a78e212dc60797dfd91854184d4a97f"))
-
+            (     0, uint256S("0x000000ddb42dec11396d4e117e8552632a78e212dc60797dfd91854184d4a97f"))
+            (   100, uint256S("0x000000ddb42dec11396d4e117e8552632a78e212dc60797dfd91854184d4a97f"))
+            ( 10000, uint256S("0x00000000002d4ec002cf97c5d5e0ca1e904c5135039b3c8e2641eceedb74a403"))
         };
 
         chainTxData = ChainTxData{
-            1535148467, // * UNIX timestamp of last known number of transactions
-            101,    // * total number of transactions between genesis and that timestamp
+            1536708120, // * UNIX timestamp of last known number of transactions
+            29274,    // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            0.0         // * estimated number of transactions per second after that timestamp
+            100.0         // * estimated number of transactions per second after that timestamp
         };
     }
 };
