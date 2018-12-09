@@ -2,7 +2,7 @@
 
 This guide assumes that you will setup so called COLD Masternode, where the server process is running on a remote Linux system (usually a rented VPS), and your funds are kept safely in your local offline wallet.
 
-# Local wallet (collateral transfer)
+# 1 - Local wallet (collateral transfer)
 First, you need to make a transaction collateral of exactly 1000 (1thousand) BRIX coins. It should be kept untouched to receive masternode rewards.
 
 * Start the Brixcoin wallet and wait for it to complete the blockchain synchronisation.
@@ -13,7 +13,7 @@ First, you need to make a transaction collateral of exactly 1000 (1thousand) BRI
 * This command should print a collateral transaction hash and index, usually 0 or 1.
 * Keep this info at hand and proceed to the remote VPS setup.
 
-# Remote VPS (masternode setup)
+# 2 - Remote VPS (masternode setup)
 You have to find a Linux server which runs 24/7/365 and has a real IP address accessible from the outside. While it is possible to run it at home, the best way is to rent a VPS from a VPS provider. There are many providers, but we recommend AWS which provides VPS starting from as low as $5.85 USD/month. To simplify the setup we provide an install script which runs on Ubuntu Linux version 16.04, 17.10 or 18.04 and automates most of the setup for you. You should have a root user access with a password, and log in to the VPS using any ssh client (on Windows it could be putty, kitty or something similar).
 
 Copy and paste the following commands to the root command prompt on Linux:
@@ -30,7 +30,7 @@ Then you should have a script output similar to this one:
 
 The most important thing is the green line with the data you have to put into your local wallet. So let's go back to it to finalise the setup.
 
-# Local wallet (masternode start)
+# 3 - Local wallet (masternode start)
 
 First you should edit a masternode configuration file which is located in the coin data directory. On Windows it is in the "%APPDATA%/BrixcoinCore" directory. But you may simply use Tools → **Open Masternode Configuration** File to edit it.
 
@@ -52,3 +52,5 @@ If it shows:
 ``Masternode successfully started``
 
 You should be fine and start receiving awards. The first award may be granted in an 1 to 24 hours depending on the number of masternodes in the network.
+
+# 4 - Sentinel Monitoring
