@@ -18,15 +18,15 @@ You have to find a Linux server which runs 24/7/365 and has a real IP address ac
 
 Copy and paste the following commands to the root command prompt on Linux:
 
-`wget -N https://github.com/awsafrica/brixcoin6.0/raw/master/contrib/masternodes/brix_masternode_install.sh`
+`wget -N https://github.com/awsafrica/brixcoin6.0/raw/master/contrib/masternode/brixcoin_masternode_install.sh`
 
-`bash brix_masternode_install.sh`
+`bash brixcoin_masternode_install.sh`
 
 The script will check if it runs on a supported Ubuntu version, update your system, install necessary libraries, install BrixCoin software, configure it as a cold masternode daemon and ask you for your masternode private key. If you don't have one yet, just press Enter, and a new key will be generated for you.
 
 Then you should have a script output similar to this one:
 
-![mnsetupready](https://raw.githubusercontent.com/awsafrica/brixcoin6.0/master/contrib/masternodes/brixmnsetupready.jpg)
+![mnsetupready](https://raw.githubusercontent.com/awsafrica/brixcoin6.0/master/contrib/masternode/brixmnsetupready.jpg)
 
 The most important thing is the green line with the data you have to put into your local wallet. So let's go back to it to finalise the setup.
 
