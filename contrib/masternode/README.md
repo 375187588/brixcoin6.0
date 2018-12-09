@@ -54,3 +54,11 @@ If it shows:
 You should be fine and start receiving awards. The first award may be granted in an 1 to 24 hours depending on the number of masternodes in the network.
 
 # 4 - Sentinel Monitoring
+
+To ensure the sentinel is running you need to activate the following cron job on the VPS
+
+``crontab -e then enter``
+
+`` * * * * * cd ~/.brixcoincore/sentinel && ./venv/bin/python bin/sentinel.py 2>&1 >> sentinel-cron.log ``
+
+`` Ctrl X then Yes and enter to save ``
