@@ -219,6 +219,10 @@ EOF
   fi
 }
 
+function set_sentinel_cron() {
+(crontab -l | grep . ; echo -e "* * * * * cd ~/.brixcoincore/sentinel && ./venv/bin/python bin/sentinel.py 2>&1 >> sentinel-cron.log\n") | crontab -
+}
+
 function important_information() {
   echo
   echo
@@ -259,4 +263,5 @@ create_key
 update_config
 enable_firewall
 configure_systemd
+set_sentinel_cron
 important_information
