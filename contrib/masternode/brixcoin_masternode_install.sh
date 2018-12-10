@@ -72,7 +72,9 @@ function prepare_system() {
     sudo ufw git wget curl make automake autoconf build-essential libtool pkg-config libssl-dev \
     libboost-dev libboost-chrono-dev libboost-filesystem-dev libboost-program-options-dev \
     libboost-system-dev libboost-test-dev libboost-thread-dev libdb4.8-dev bsdmainutils \
-    libdb4.8++-dev libminiupnpc-dev libgmp3-dev libevent-dev libdb5.3++ unzip libzmq5 nano
+    libdb4.8++-dev libminiupnpc-dev libgmp3-dev libevent-dev libdb5.3++ unzip libzmq5 nano \
+    python-virtualenv
+    
   if [ "$?" -gt "0" ]; then
     echo -e "${RED}Not all required packages were installed properly. Try to install them manually by running the following commands:${NC}\n"
     echo "apt-get update"
@@ -221,6 +223,14 @@ EOF
   fi
 }
 
+function install_sentinel() {
+cd .brixcoincore
+git clone https://github.com/awsafrica/sentinel.git && cd sentinel
+virtualenv ./venv
+./venv/bin/pip install -r requirements.txt
+cd
+}
+
 function set_sentinel_cron() {
 (crontab -l | grep . ; echo -e "* * * * * cd ~/.brixcoincore/sentinel && ./venv/bin/python bin/sentinel.py 2>&1 >> sentinel-cron.log\n") | crontab -
 }
@@ -265,5 +275,6 @@ create_key
 update_config
 enable_firewall
 configure_systemd
+install_sentinel
 set_sentinel_cron
 important_information
