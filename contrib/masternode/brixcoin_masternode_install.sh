@@ -18,6 +18,7 @@
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='brixcoin.conf'
 CONFIGFOLDER='/root/.brixcoincore'
+SETINELFOLDER='/root/.brixcoincore/sentinel'
 COIN_DAEMON='brixcoind'
 COIN_CLI='brixcoin-cli'
 COIN_PATH='/usr/local/bin/'
@@ -59,6 +60,7 @@ function prepare_system() {
   sleep 3
   apt-get update
   mkdir -p $CONFIGFOLDER
+  mkdir -p $SENTINELFOLDER
   DEBIAN_FRONTEND=noninteractive apt-get update
   DEBIAN_FRONTEND=noninteractive apt-get -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y -qq upgrade
   apt install -y software-properties-common
