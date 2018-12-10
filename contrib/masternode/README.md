@@ -1,4 +1,4 @@
-# Brixcoin Masternode Setup Guide
+# Brixcoin Masternode Setup Guide + Sentinel
 
 This guide assumes that you will setup so called COLD Masternode, where the server process is running on a remote Linux system (usually a rented VPS), and your funds are kept safely in your local offline wallet.
 
@@ -42,7 +42,7 @@ First you should edit a masternode configuration file which is located in the co
 * If you have the Masternodes tab - switch to it. If not, open wallet preferences and enable Masternodes tab from there.
 * Click Start All button to start your masternode.
 
-## Now your masternode should be running.
+## Now your masternode and sentinel should be running.
 
 You may go to the Linux console and type there:
 ``brixcoin-cli masternode status``
