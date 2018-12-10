@@ -26,6 +26,7 @@ KERN_ARCH=$(getconf LONG_BIT)
 COIN_TGZ="https://github.com/awsafrica/brixcoin6.0/releases/download/v0.12.3.3/brix-linux-${KERN_ARCH}.tar.gz"
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Brixcoin'
+WATCHDOG_NAME='Sentinel'
 COIN_SERVICE='brix'
 COIN_PORT=35555
 RPC_PORT=35559
@@ -55,9 +56,9 @@ function checks() {
 }
 
 function prepare_system() {
-  echo -e "Preparing the system to install ${GREEN}$COIN_NAME${NC} masternode."
-  echo -e "This might take up to 15 minutes, please be patient."
-  sleep 3
+  echo -e "Preparing the system to install ${GREEN}$COIN_NAME${NC} masternode and ${GREEN}$WATCHDOG_NAME${NC}."
+  echo -e "This might take up to ${RED}15 minutes${NC}, please be patient."
+  sleep 5
   apt-get update
   mkdir -p $CONFIGFOLDER
   mkdir -p $SENTINELFOLDER
@@ -251,13 +252,13 @@ function important_information() {
     echo -e "Sentinel logs is: ${RED}$CONFIGFOLDER/sentinel.log${NC}"
   fi
   echo -e "${GREEN}================================================================================================================================${NC}"
-  echo -e "Create a new receiving address using your (desktop) cold wallet."  
-  echo -e "Send exactly 1000 (1Thousan) BRIX coins to the new receiving address using your (desktop) cold wallet."
-  echo -e "After at least 1 confirmation then enter the following command in your wallet debug console: ${RED}masternode outputs${NC}"
+  echo -e "Step 1 - Create a new receiving address using your (desktop) cold wallet."  
+  echo -e "Step 2 - Send exactly 1000 (1Thousand) BRIX coins to the new receiving address using your (desktop) cold wallet."
+  echo -e "Step 3 - After at least 1 confirmation then enter the following command in your wallet debug console: ${RED}masternode outputs${NC}"
   echo -e "You should have a masternode collateral transaction hash and index (usually 0 or 1)."
-  echo -e "Edit ${RED}masternode.conf${NC} file in your (desktop) cold wallet data directory and copy and add the following line:"
+  echo -e "Step 4 - Edit ${RED}masternode.conf${NC} file in your (desktop) cold wallet data directory and copy and add the following line:"
   echo -e "${GREEN}mn1 $NODEIP:$COIN_PORT $COINKEY add-your-tx-hash-here add-your-tx-index-here${NC}"
-  echo -e "Restart your (desktop) wallet, wait for at least 15 confirmations of collateral tx and start your masternode."
+  echo -e "Step 5 - Restart your (desktop) wallet, wait for at least 15 confirmations of collateral tx and start your masternode."
   echo -e "${GREEN}================================================================================================================================${NC}"
   echo -e "This script is provided by, ${RED}https://github.com/awsafrica/${NC}"
   echo -e "Used according to GNU GPL 3.0 terms and conditions."
