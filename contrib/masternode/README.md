@@ -14,7 +14,7 @@ First, you need to make a transaction collateral of exactly 1000 (1thousand) BRI
 * Keep this info at hand and proceed to the remote VPS setup.
 
 # 2 - Remote VPS (masternode setup)
-You have to find a Linux server which runs 24/7/365 and has a real IP address accessible from the outside. While it is possible to run it at home, the best way is to rent a VPS from a VPS provider. There are many providers, but we recommend AWS which provides VPS starting from as low as $5.85 USD/month. To simplify the setup we provide an install script which runs on Ubuntu Linux version 16.04, 17.10 or 18.04 and automates most of the setup for you. You should have a root user access with a password, and log in to the VPS using any ssh client (on Windows it could be putty, kitty or something similar).
+You have to find a Linux server which runs 24/7/365 and has a real IP address accessible from the outside. While it is possible to run it at home, the best way is to rent a VPS from a VPS provider. There are many providers, but we recommend https://www.ezimn.com/ which provides VPS starting from as low as $2.85 USD/month. To simplify the setup we provide an install script which runs on Ubuntu Linux version 16.04, 17.10 or 18.04 and automates most of the setup for you. You should have a root user access with a password, and log in to the VPS using any ssh client (on Windows it could be putty, kitty or something similar).
 
 Copy and paste the following commands to the root command prompt on Linux:
 
